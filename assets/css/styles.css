@@ -12,10 +12,52 @@ h1 {
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
+	/*color: white;*/
 }
 
 h2 {
 	font: 1.35em/2 'Lato', 'Hevetica', arial, sans-serif;
 	font-weight: 400;
 	text-align: center;
+	/*color: white;*/
 }
+
+section {
+	background: red; /*testing purposes only*/
+	color: #fff;
+}
+
+/*begin Hero section*/
+section#page-header {
+	height:100vh; /*viewport height*/
+	width: 100%;
+	background: #ccc url(../images/newTaipeiCity2.jpg) no-repeat center center;
+	background-size: cover;
+	color: #000;
+	display: table; /*sets parent container to behave like a table*/
+}
+
+section#page-header header {
+	width: 100%;
+	text-align: center;
+	display: table-cell; /*sets child to display like table cell for vertical centering*/
+	vertical-align: middle; /*vertically centers text in "table cell" regardless of parent sizing*/
+}
+
+section#page-header header h1 {
+	font-size: 2.5em;
+	font-weight: 400;
+	line-height: 1em;
+	color: white;
+}
+
+section#page-header header h2 {
+	font-size: 1.45em;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: white;
+}
+/*end Hero section*/
+
+
+
