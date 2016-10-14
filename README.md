@@ -10,3 +10,7 @@ I am starting the design process of this site with the mobile view in mind FIRST
 
 Ended at 7:30
 https://www.youtube.com/watch?v=WFzUnG5M3bA
+
+Remove Class JQUERY documentation 
+https://api.jquery.com/removeclass/
+
