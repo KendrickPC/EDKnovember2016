@@ -51,6 +51,10 @@ nav {
 	-webkit-transform:translateZ(0);
 
 }
+
+nav.nav_closed {
+	overflow: hidden;
+}
 /*END  NAVBAR RULES*/
 
 /*BEING MENU RULES*/
@@ -76,6 +80,20 @@ ul#navlist {
 	clear: right;
 	list-style; none;
 	font-weight: 300;
+}
+
+nav.nav_closed ul#navlist {
+	display: none;
+}
+
+nav.nav_open {
+	overflow: visible;
+	background: rgba(0,0,0,0.85);
+}
+
+nav.nav_open ul#navlist {
+	display: block;
+	background: rgba(0,0,0,0.85);
 }
 /*END NAVLIST RULES*/
 

@@ -7,14 +7,16 @@
 	<link href="assets/css/reset.css" rel="stylesheet" type="text/css">	
 	<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
 
+	
+
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <!-- begin navbar  --> 
-	<nav class="nav-closed">
-		<a href="mainnav" id="menu">MENU</a>
+	<nav class="nav_closed">
+		<a href="#mainnav" id="menu">MENU</a>
 		<ul id="navlist">
 			<li><a href="#page-header">home</a></li>
 			<li><a href="#profile">profile</a></li>
@@ -37,7 +39,20 @@
 	</section>
 	<section>
 		<p>this is another section</p>
-	</section>		
+	</section>
+<!-- The following jquery file has to come before any other jquery is fired off -->	
+<script src="assets/js/jquery-1.11-1.min.js" type="text/javascript"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> -->
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#menu").click(function() {
+			$("nav.nav_closed").toggleClass("nav_open");
+					
+		});
+	});
+</script>			
 </body>
 </html>
 
