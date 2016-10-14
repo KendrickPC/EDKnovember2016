@@ -95,6 +95,26 @@ nav.nav_open ul#navlist {
 	display: block;
 	background: rgba(0,0,0,0.85);
 }
+
+nav.nav_open a#menu {
+	color: #333;
+	background: #999;
+}
+
+nav ul#navlist li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-top: 1px #ccc solid;
+	color: #ffe3cd;
+	text-decoration: none;
+}
+
+nav ul#navlist li a:hover {
+	background: #009ee6;
+	color: #fff;
+	text-decoration: none;
+}
 /*END NAVLIST RULES*/
 
 /*BEING HERO SECTION */
