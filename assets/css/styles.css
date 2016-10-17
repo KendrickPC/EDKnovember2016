@@ -14,7 +14,6 @@ h1 {
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
-	/*color: white;*/
 }
 
 h2 {
@@ -123,7 +122,7 @@ nav ul#navlist li a:hover {
 section#page-header {
 	height:100vh; /*viewport height*/
 	width: 100%;
-	background: #ccc url(../images/newTaipeiCity2.jpg) no-repeat center center;
+	background: #ccc url(../images/cycle.jpg) no-repeat center center;
 	background-size: cover;
 	color: #000;
 	display: table; /*sets parent container to behave like a table*/
@@ -141,6 +140,11 @@ section#page-header header h1 {
 	font-weight: 400;
 	line-height: 1em;
 	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 section#page-header header h2 {
@@ -148,6 +152,11 @@ section#page-header header h2 {
 	text-transform: uppercase;
 	font-weight: 300;
 	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 /*END HERO SECTION*/
 

@@ -14,3 +14,8 @@ https://www.youtube.com/watch?v=WFzUnG5M3bA
 Remove Class JQUERY documentation 
 https://api.jquery.com/removeclass/
 
+Ended at 9:30
+https://www.youtube.com/watch?v=G3OujIuNy74
+
+Progressive enhancement: Making the menu work without javascript. A simple fix is to provide the <noscript></noscript> option immediately after the javascript. 
+
