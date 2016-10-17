@@ -23,11 +23,20 @@ h2 {
 	/*color: white;*/
 }
 
+a {
+	text-decoration: none;
+	color: #009ee6;
+}
+
+a:hover {
+	color: #e57A00;
+}
+
 /*END GENERAL TEXT RULES*/
 
 /*BEGIN SECTION RULES*/
 section {
-	background: red; /*testing purposes only*/
+	background: black; /*testing purposes only*/
 	color: #fff;
 }
 
@@ -122,7 +131,7 @@ nav ul#navlist li a:hover {
 section#page-header {
 	height:100vh; /*viewport height*/
 	width: 100%;
-	background: #ccc url(../images/cycle.jpg) no-repeat center center;
+	background: #ccc url(../images/taipei.jpg) no-repeat center center;
 	background-size: cover;
 	color: #000;
 	display: table; /*sets parent container to behave like a table*/
@@ -160,5 +169,23 @@ section#page-header header h2 {
 }
 /*END HERO SECTION*/
 
+/*BEGIN NOSCRIPT STYLES*/
+#mainnav li {
+	width: 100%;
+	text-align: center;
+	height: 2.5em;
+	line-height: 2.5em;
+	border-top: 1px #ccc solid;
+}
+/*END NOSCRIPT STYLES*/
 
+/*begin section page content rules*/
+section.page-content div {
+	width: 85%;
+	max-width: 1024px;
+	margin: 3em auto;
+	/*ensures the h1 clears the persistent navbar at the top*/	
+	padding-top: 4em;
+}
+/*end section page content rules*/
 
