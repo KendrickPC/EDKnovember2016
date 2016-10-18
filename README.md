@@ -19,3 +19,14 @@ https://www.youtube.com/watch?v=G3OujIuNy74
 
 Progressive enhancement: Making the menu work without javascript. A simple fix is to provide the <noscript></noscript> option immediately after the javascript. 
 
+Possible skills charts 
+
+Spider web graph:
+http://codepen.io/BJack/pen/ulbsK
+
+JS Circular skills bar
+http://codepen.io/gabrieleromanato/pen/OVprOW
+
+NO tutorial added
+http://codepen.io/bojankrsmanovic/pen/EyWEZB
+

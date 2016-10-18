@@ -36,8 +36,8 @@ a:hover {
 
 /*BEGIN SECTION RULES*/
 section {
-	background: black; /*testing purposes only*/
-	color: #fff;
+	background: white; /*testing purposes only*/
+	color: black;
 }
 
 /*BEGIN NAVBAR RULES*/
@@ -128,6 +128,11 @@ nav ul#navlist li a:hover {
 /*END NAVLIST RULES*/
 
 /*BEING HERO SECTION */
+
+section.page-content div {
+	clear: both;
+}
+
 section#page-header {
 	height:100vh; /*viewport height*/
 	width: 100%;
@@ -188,4 +193,34 @@ section.page-content div {
 	padding-top: 4em;
 }
 /*end section page content rules*/
+section.page-content article {
+    margin-top: 0.25em;
+/*	hr line-break code found at the following: 
+	http://siahdesign.com/archives/210*/
+    background: url(../images/break.png) no-repeat top center;
+    padding-top: 100px;
+    background-size: 80%;
+}
+
+/*begin special PROFILE rules*/
+section.#profile div {
+	margin-top: 0;
+}
+/*end special PROFILE rules*/
+
+/*begin contact us section*/
+
+/*end contact us section*/
+
+
+
+
+
+
+
+
+
+
+
+
 
