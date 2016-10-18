@@ -202,6 +202,24 @@ section.page-content article {
     background-size: 80%;
 }
 
+section.page-content article h3 {
+	font-weight: 700;
+	font-size: 1.15em;
+}
+
+section.page-content article dl {
+	margin: 1.15em auto;
+	margin-left: 0.5em;
+}
+
+section.page-content article dt {
+	font-weight: 700;
+}
+
+section.page-content article dd {
+	margin-bottom: 0.6em;
+}
+
 /*begin special PROFILE rules*/
 section.#profile div {
 	margin-top: 0;
