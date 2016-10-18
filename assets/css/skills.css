@@ -1,29 +1,4 @@
-/*Begin Special Skills Rules*/
-section#skills ul {
-  width: 60%;
-  margin: 1em auto;
-  padding: 1em auto;
-  /*The following line should be cleared out after the background test color is changed*/
-  margin-top: 0px;
-
-  overflow: hidden;
-}
-
-section#skills ul li {
-  float: left;
-  width: 40%;
-  padding: 5%;
-}
-
-section#skills ul li img {
-  display: block;
-  width: 100%;
-  margin: auto;
-}
-
-/*End Special Skills Rules*/
-
-.skillbar {
+/*.skillbar {
   position:relative;
   display:block;
   margin-bottom:15px;
@@ -49,7 +24,7 @@ section#skills ul li img {
   position:absolute;
   top:0;
   left:0;
-  /*changed from 110px*/
+  
 width:30px;
   font-weight:bold;
   font-size:13px;
@@ -95,4 +70,4 @@ width:30px;
   line-height:35px;
   color:#ffffff;
   color:rgba(0, 0, 0, 0.4);
-}
+}*/

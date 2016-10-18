@@ -50,7 +50,7 @@
 
 <!-- Begin Skills Section Template -->
 	<section id="skills" class="page-content">
-		<!-- <div> -->
+		<div>
 			<header>
 				<h1>Skills</h1>
 				<h2>Tools of My Trade</h2>
@@ -64,7 +64,6 @@
 					<li><img src="assets/images/skills/photoshop.png" alt="Photoshop"></li>
 					<li><img src="assets/images/skills/ruby.png" alt="Illustrator"></li>
 				</ul>
-
 			</article>
 		</div>
 	</section>
@@ -133,17 +132,32 @@
 				<ul>
 					<li>
 						<a href="#">
-							<img src="http://placehold.it/200x200" alt="placeholder">
+							<img src="http://placehold.it/200x150" alt="placeholder">
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="http://placehold.it/200x200" alt="placeholder">
+							<img src="http://placehold.it/200x150" alt="placeholder">
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="http://placehold.it/200x200" alt="placeholder">
+							<img src="http://placehold.it/200x150" alt="placeholder">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="http://placehold.it/200x150" alt="placeholder">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="http://placehold.it/200x150" alt="placeholder">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="http://placehold.it/200x150" alt="placeholder">
 						</a>
 					</li>
 				</ul>
@@ -212,6 +226,25 @@
 	</ul>
 </noscript>
 
+<script type="text/javascript">
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<noscript>
+	<p>Javascript is disabled in your browser. Smooth scrolling will be disabled on navigation links, but it does not affect the content.</p>
+</noscript>
 </body>
 </html>
 

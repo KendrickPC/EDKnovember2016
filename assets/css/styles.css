@@ -175,12 +175,22 @@ section#page-header header h2 {
 /*END HERO SECTION*/
 
 /*BEGIN NOSCRIPT STYLES*/
+#mainnav {
+	padding-top: 4em;
+}
+
 #mainnav li {
 	width: 100%;
 	text-align: center;
 	height: 2.5em;
 	line-height: 2.5em;
 	border-top: 1px #ccc solid;
+}
+
+noscript p {
+	text-align: center;
+	margin: 1em auto;
+	width: 80%;
 }
 /*END NOSCRIPT STYLES*/
 
@@ -267,6 +277,29 @@ section#portfolio li:hover {
 }
 /*end special portfolio rules*/
 
+/*Begin Special Skills Rules*/
+section#skills ul {
+  width: 60%;
+  margin: 1em auto;
+  padding: 1em auto;
+  /*The following line should be cleared out after the background test color is changed*/
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+section#skills ul li {
+  float: left;
+  width: 40%;
+  padding: 5%;
+}
+
+section#skills ul li img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+/*End Special Skills Rules*/
 
 /*begin special contact rules*/
 section#contact {
@@ -295,9 +328,25 @@ section#contact ul li a img {
 }
 /*end special contact rules*/
 
+/*being media queries section*/
+@media screen and (min-width:720px) {
+	section#skills ul {
+		width: 50%;
 
-
-
+	}
+	section#skills ul li {
+		width: 15%;
+		padding: 0.33%;
+	}
+	section#portfolio li {
+		float: left;
+		width: 29%;
+		max-width: 29%;
+		margin: 1em 1%;
+		padding: 1%;
+	}
+}
+/*end media queries section*/
 
 
 

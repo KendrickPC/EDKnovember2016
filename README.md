@@ -30,3 +30,8 @@ http://codepen.io/gabrieleromanato/pen/OVprOW
 NO tutorial added
 http://codepen.io/bojankrsmanovic/pen/EyWEZB
 
+Smooth Scroll
+https://css-tricks.com/snippets/jquery/smooth-scrolling/
+
+Lightbox Script
+http://lokeshdhakar.com/projects/lightbox2/
